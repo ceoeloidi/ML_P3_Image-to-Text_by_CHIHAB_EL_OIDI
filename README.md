@@ -55,20 +55,12 @@ The project includes two different interface implementations:
   2. Streamlit Demo: More polished interface with better error handling
 
 
-## Features
+## Development Environment Setup
 
-Contrastive learning with dual augmented views
-Custom COCO dataset wrapper
-Simple convolutional encoder architecture
-Image similarity retrieval system
-Training progress visualization
-Environment Setup
+### Prerequisites
 
-## Prerequisites
-
-#### - Google Colab (recommended)
-#### - Google Drive account (for dataset storage)
-#### - Python 3.8+
+  - Python 3.7+
+  - pip package manager
 
 ## Installation
 
