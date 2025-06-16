@@ -48,6 +48,12 @@ The application uses the ydshieh/vit-gpt2-coco-en model which combines:
  - Vision Transformer (ViT) for image feature extraction
  - GPT-2 decoder for text generation
 
+The project includes two different interface implementations:
+
+  1. Gradio Demo: Simple interface for quick testing
+
+  2. Streamlit Demo: More polished interface with better error handling
+
 
 ## Features
 
