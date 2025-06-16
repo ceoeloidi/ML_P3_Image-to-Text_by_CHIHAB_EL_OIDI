@@ -80,21 +80,50 @@ The project includes two different interface implementations:
 
     jupyter notebook "Image-To-Text done by CHIHAB EL OIDI.ipynb"
 
-### - Place it in your Google Drive at:
+### 1.	Try it yourself
     
-        /content/drive/MyDrive/ML_Project2/tiny_coco
+        [/content/drive/MyDrive/ML_Project2/tiny_coco](https://ceoeloidi-image-to-text-by-chihab-el-oidi-gradio.hf.space)
         
-### - Expected directory structure:
+### 2.	Setup and Code
 
-    tiny_coco/
-    └── tiny_coco_dataset-master/
-        ├── annotations/
-        │   └── instances.json 
-        └── images/
-            └── train2017/
-                ├── 000000000009.jpg
-                ├── 000000000025.jpg
-                └── ...
+    from transformers import pipeline
+import gradio as gr
+from PIL import Image
+
+# Initialize the image captioning pipeline
+captioner = pipeline(“image-to-text”, model=”ydshieh/vit-gpt2-coco-en”)
+
+def generate_caption(image):
+    “””Generate caption from uploaded image”””
+    if image is None:
+        return None, “Please upload an image”
+    
+    # Open image and generate caption
+    img = Image.open(image)
+    result = captioner(img)[0][‘generated_text’]
+    return img, result  # Return both image and text
+
+# Create Gradio interface
+with gr.Blocks(title=”Image To Text”) as app:
+    gr.Markdown(“#Image to Text”)  # Optional header for display
+
+    with gr.Row():
+        with gr.Column():
+            upload_file = gr.Image(type=”filepath”, label=”Upload Image”)
+            submit = gr.Button(“Extract Caption”)
+        
+        with gr.Column():
+            output_image = gr.Image(label=”Uploaded Image”, interactive=False)
+            output_text = gr.Textbox(label=”Generated Caption”)
+
+    submit.click(
+        fn=generate_caption,
+        inputs=upload_file,
+        outputs=[output_image, output_text]
+    )
+
+app.launch(share=True)  # Run the app
+
 
 
 
