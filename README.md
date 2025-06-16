@@ -41,11 +41,12 @@ This project provides two implementations for generating text captions from imag
 - [Dependencies](#dependencies)
 
 
-## Demo Media
+## Overview
 
- - You can view it either by downloading it from this repo from this link: https://github.com/ceoeloidi/ML_P2-SSLearn-by-CHIHAB-EL-OIDI/raw/refs/heads/main/ML_P2%20SSLe%20by%20CHIHAB%20EL%20OIDI.mkv?download=
- - Or watch it on drive via link : https://drive.google.com/file/d/17SbgNcoZFdvBjELOqGJDp7Zcqa30Ccj_/view
+The application uses the ydshieh/vit-gpt2-coco-en model which combines:
 
+ - Vision Transformer (ViT) for image feature extraction
+ - GPT-2 decoder for text generation
 
 
 ## Features
