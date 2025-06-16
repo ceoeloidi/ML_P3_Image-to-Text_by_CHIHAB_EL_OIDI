@@ -87,27 +87,27 @@ The project includes two different interface implementations:
 ### 2.	Setup and Code
 
     from transformers import pipeline
-import gradio as gr
-from PIL import Image
+    import gradio as gr
+    from PIL import Image
 
-# Initialize the image captioning pipeline
-captioner = pipeline(“image-to-text”, model=”ydshieh/vit-gpt2-coco-en”)
+  ## Initialize the image captioning pipeline
+      captioner = pipeline(“image-to-text”, model=”ydshieh/vit-gpt2-coco-en”)
 
-def generate_caption(image):
-    “””Generate caption from uploaded image”””
-    if image is None:
+      def generate_caption(image):
+      “””Generate caption from uploaded image”””
+      if image is None:
         return None, “Please upload an image”
     
-    # Open image and generate caption
-    img = Image.open(image)
-    result = captioner(img)[0][‘generated_text’]
-    return img, result  # Return both image and text
+      ## Open image and generate caption
+        img = Image.open(image)
+        result = captioner(img)[0][‘generated_text’]
+        return img, result  # Return both image and text
 
-# Create Gradio interface
-with gr.Blocks(title=”Image To Text”) as app:
-    gr.Markdown(“#Image to Text”)  # Optional header for display
+  ## Create Gradio interface
+      with gr.Blocks(title=”Image To Text”) as app:
+      gr.Markdown(“#Image to Text”)  # Optional header for display
 
-    with gr.Row():
+      with gr.Row():
         with gr.Column():
             upload_file = gr.Image(type=”filepath”, label=”Upload Image”)
             submit = gr.Button(“Extract Caption”)
@@ -121,27 +121,20 @@ with gr.Blocks(title=”Image To Text”) as app:
         inputs=upload_file,
         outputs=[output_image, output_text]
     )
-
-app.launch(share=True)  # Run the app
-
+    app.launch(share=True)  # Run the app
 
 
 
-## Code Structure
 
-### - Setup & Configuration
+  ### 3.	Result Demo
 
-    - Mounts Google Drive    
-    - Sets configuration parameters:
+  ![4](https://github.com/user-attachments/assets/27384cf4-3608-4cec-ac96-6227446cf6d0)
 
-            class config:
-                data_dir = "/content/drive/MyDrive/ML_Project2/tiny_coco"
-                img_size = 128
-                batch_size = 64
-                num_epochs = 24
-                temperature = 0.1
-                projection_dim = 64
 
+  ### 4.	Demo Animated
+
+    
+  
 
 
 ### - Dataset Preparation
