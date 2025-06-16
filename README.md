@@ -1,4 +1,4 @@
-# Image-to-Text ML Application done using Gradio and Streamlit
+# Image-to-Text Application done using Gradio and Streamlit
   
   ## Try it Yourself
 
