@@ -8,7 +8,7 @@ This project provides two implementations for generating text captions from imag
 
   - Gradio app: https://ceoeloidi-image-to-text-by-chihab-el-oidi-gradio.hf.space
     
-  - Streamlit app: https://image-to-textbychihabeloidi.streamlit.app ![Uploading streamlit-logo-primary-colormark-darktext.svg…]()
+  - Streamlit app: https://image-to-textbychihabeloidi.streamlit.app
 
 
 
