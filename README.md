@@ -15,7 +15,7 @@ This project provides two implementations for generating text captions from imag
 
 ## Table of Contents
 
-- [Demo Media](#demo-media)
+- [Try it Yourself](#try-it-yourself)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
