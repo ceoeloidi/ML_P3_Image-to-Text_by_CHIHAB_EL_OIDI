@@ -1,12 +1,17 @@
 # Image-to-Text Application done using Gradio and Streamlit
 
+<video src="" width="300" />
+
 This project provides two implementations for generating text captions from images using a pre-trained Vision Transformer (ViT) and GPT-2 model from Hugging Face Transformers.
   
   ## Try it Yourself
 
+  
+
   - Gradio app: https://ceoeloidi-image-to-text-by-chihab-el-oidi-gradio.hf.space
     
-  - Streamlit app: https://image-to-textbychihabeloidi.streamlit.app
+  - Streamlit app: https://image-to-textbychihabeloidi.streamlit.app ![Uploading streamlit-logo-primary-colormark-darktext.svg…]()
+
 
 
 ![logo_FS](https://github.com/user-attachments/assets/6657add7-916a-4aff-a1a8-419b6aa9bf0f) 
