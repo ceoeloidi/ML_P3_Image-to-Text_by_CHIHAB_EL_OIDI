@@ -64,14 +64,15 @@ The project includes two different interface implementations:
 
 ## Installation
 
-#### 1. Mount Google Drive in Colab:
+#### 1. Create and activate a virtual environment:
 
-        from google.colab import drive
-        drive.mount('/content/drive/')
+        python -m venv venv
+        source venv/bin/activate  # Linux/MacOS
+        venv\Scripts\activate    # Windows
 
 #### 2. Install required packages:
    
-        !pip install torch torchvision matplotlib numpy tqdm pycocotools requests pillow
+        pip install torch transformers gradio streamlit Pillow
 
 ## Dataset Configuration
 
