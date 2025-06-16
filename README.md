@@ -16,7 +16,7 @@ This project provides two implementations for generating text captions from imag
 ## Table of Contents
 
 - [Try it Yourself](#try-it-yourself)
-- [Overview](#overview))
+- [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
   - [1. Mount Google Drive in Colab:](#1-mount-google-drive-in-colab)
