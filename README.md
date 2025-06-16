@@ -82,7 +82,7 @@ The project includes two different interface implementations:
 
 ### 1.	Try it yourself
     
-      - https://ceoeloidi-image-to-text-by-chihab-el-oidi-gradio.hf.space
+    - https://ceoeloidi-image-to-text-by-chihab-el-oidi-gradio.hf.space
         
 ### 2.	Setup and Code
 
