@@ -74,9 +74,11 @@ The project includes two different interface implementations:
    
         pip install torch transformers gradio streamlit Pillow
 
-## Dataset Configuration
+## Running Demos
 
-### - Download the Tiny COCO dataset : [https://github.com/lizhogn/tiny_coco_dataset/tree/master]
+### Gradio Demo
+
+    jupyter notebook "Image-To-Text done by CHIHAB EL OIDI.ipynb"
 
 ### - Place it in your Google Drive at:
     
