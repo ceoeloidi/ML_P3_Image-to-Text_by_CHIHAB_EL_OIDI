@@ -4,7 +4,7 @@ This project provides two implementations for generating text captions from imag
 
 [![Watch the video]
 (<a href="https://jmp.sh/v/gmMDfSCZ9j5Oq4DqWoTQ"><p style="margin-bottom: 0 !important;">ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI - Watch Video</p><img style="max-width:400px;" src="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af1949330d3dddad4373b13981d89beb47b121f4b150c97d5f33f3e9bead2bc3cb7af57db6d1497cbdb4da035e359df11f30b0399dfafde1d7c7185f808fef6f9a98c1f06527dec44c6186dce9502c50d19cc0e"></a>)
-(https://d3n16e29bcg407.cloudfront.net/x8uxgo%2Fpreview%2F68326338%2Fmain_x360.mp4?response-content-disposition=inline%3Bfilename%3D%22main_x360.mp4%22%3B&response-content-type=video%2Fmp4&Expires=1750555580&Signature=dgROvE3KhQMnozHMcrhPTN4zn1o82~5VZD98cLFZ2o~THv27Soeyc~Dq0661oV9CGA7XgsFjuNZFrlxlCRLk7Mb9ocCSClh67SGKJxVR6Lj2B01puMtLSTcqAxa~rxyVC4JeTAbcqguMjGZQUeAHSKZKZWIktnXj8StjU35V9BVTt~lV3SkFh8i7CNaE7ezBk~Tm29WBa3Y3GGwRQ2uyKRNlW8IhBjuc3pOuRF3ulEMwD6Loe6y4oYSnrq5iwMl4HrnrhzIGW4NtUe8jA97cVZ-3cYamHTRqZ8yuOXWcUANMUQdsQ-wN1h3NKBCS5q-yTIQ9QsbNSpQ56dfrg0iw-A__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ)]
+(<iframe id="js_video_iframe" src="https://jumpshare.com/embed/gmMDfSCZ9j5Oq4DqWoTQ" frameborder="0" width="640" height="400" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>)]
 
   ## Try it Yourself
 
