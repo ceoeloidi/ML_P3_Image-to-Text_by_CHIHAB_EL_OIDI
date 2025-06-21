@@ -3,7 +3,7 @@
 This project provides two implementations for generating text captions from images using a pre-trained Vision Transformer (ViT) and GPT-2 model from Hugging Face Transformers.
 
 [![Watch the video]
-(./screenshots/4.png)]
+(screenshots/4.png)]
 (https://jumpshare.com/embed/gmMDfSCZ9j5Oq4DqWoTQ)
 
   ## Try it Yourself
