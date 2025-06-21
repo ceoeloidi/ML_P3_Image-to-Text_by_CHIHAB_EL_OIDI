@@ -137,7 +137,7 @@ The project includes two different interface implementations:
   ### 4.	Demo Animated
 
     
-  
+  <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe id="js_video_iframe" src="https://jumpshare.com/embed/gmMDfSCZ9j5Oq4DqWoTQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 ### - Dataset Preparation
