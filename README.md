@@ -2,7 +2,7 @@
 
 This project provides two implementations for generating text captions from images using a pre-trained Vision Transformer (ViT) and GPT-2 model from Hugging Face Transformers.
 
-ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI_Gradio_Demo.mov
+https://github.com/ceoeloidi/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI/blob/main/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI_Gradio_Demo.mov
 
 
   ## Try it Yourself
