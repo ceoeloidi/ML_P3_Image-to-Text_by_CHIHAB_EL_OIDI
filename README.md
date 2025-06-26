@@ -2,8 +2,7 @@
 
 This project provides two implementations for generating text captions from images using a pre-trained Vision Transformer (ViT) and GPT-2 model from Hugging Face Transformers.
 
-[![Watch the video]
-(<a href="https://jmp.sh/v/gmMDfSCZ9j5Oq4DqWoTQ"><p style="margin-bottom: 0 !important;">ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI - Watch Video</p><img style="max-width:400px;" src="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af1949330d3dddad4373b13981d89beb47b121f4b150c97d5f33f3e9bead2bc3cb7af57db6d1497cbdb4da035e359df11f30b0399dfafde1d7c7185f808fef6f9a98c1f06527dec44c6186dce9502c50d19cc0e"></a>)]<div class="sp-embed-player" data-id="cT1O0UnXW6g"><script src="https://go.screenpal.com/player/appearance/cT1O0UnXW6g"></script><iframe width="100%" height="100%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cT1O0UnXW6g?width=100%&height=100%&ff=1&title=0" allowfullscreen="true"></iframe></div>
+<div class="sp-embed-player" data-id="cT1O0UnXW6g"><script src="https://go.screenpal.com/player/appearance/cT1O0UnXW6g"></script><iframe width="100%" height="100%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cT1O0UnXW6g?width=100%&height=100%&ff=1&title=0" allowfullscreen="true"></iframe></div>
 
   ## Try it Yourself
 
