@@ -4,7 +4,7 @@ This project provides two implementations for generating text captions from imag
 
 ![Demo](https://github.com/ceoeloidi/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI/blob/44f370358a1f466c8a78aba93a51fb72fabe477b/demo/P34.gif) 
 
-![Video]([https://github.com/ceoeloidi/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI/blob/44f370358a1f466c8a78aba93a51fb72fabe477b/demo/P34.gif](https://github.com/ceoeloidi/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI/blob/48e88cb885d9f3301d664a4d7fbd97f45e8f944c/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI_Gradio_Demo.mov)) 
+![Video](https://github.com/ceoeloidi/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI/blob/48e88cb885d9f3301d664a4d7fbd97f45e8f944c/ML_P3_Image-to-Text_by_CHIHAB_EL_OIDI_Gradio_Demo.mov)
 
   ## Try it Yourself
 
